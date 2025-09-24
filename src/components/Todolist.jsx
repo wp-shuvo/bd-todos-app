@@ -1,6 +1,6 @@
 import TodoItem from "./TodoItem";
 
-export default function TodoList({ todos, toggleTodo, deleteTodo }) {
+export default function TodoList(todoData) {
   if (todos.length === 0) {
     return <p className="text-gray-500">No todos yet...</p>;
   }
